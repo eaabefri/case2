@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+.header {
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 7%;
+    border: solid 1px black;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    text-align: center;
+    float: left;
+    top: 15%;
+    left: 8%;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    margin-left: 20%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background: white no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+    ;
+    color: white;
+}
+
+.slide__label {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 32px;
+    font-family: "Helvetica", "Arial", sans;
+    font-weight: 900;
+    font-size: 64px;
+}
+.slide {
+   
+}
+
+.slide:nth-of-type(1) {
+    background-image: url(/images/gellidon%20landingpage.png);
+    cursor: auto;
+    
+}
+
+.slide:nth-of-type(2) {
+    background-image: url(/images/RedigeretStreetballLokationer/IMG_0376-2.jpg);
+}
+
+.slide:nth-of-type(3) {
+    background-image: url(/images/usa_today_9888923.1487562403.jpg);
+}
+
+.slide:nth-of-type(4) {
+    background-image: url(/images/boston%20vs%20philly.png);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#main-menu .nav-bar {
+    list-style: none;
+    margin-top: 40px;
+}
+
+#main-menu .nav-bar li {
+    display: inline;
+    padding: 0 10px;
+}
+
+#main-menu .nav-bar li a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 1px 1px #ccc;
+    float: right;
+    font-family: League Gothic;
+    font-size: 130%;
+    position: absolute;
+}
+
+.nav-bar .nav-button-kategori a {
+    right: 8%;
+    top: 33%;
+}
+
+.nav-bar .nav-button-kategori a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.nav-bar .nav-button-NBA a {
+    right: 15%;
+    top: 33%;
+}
+
+.nav-bar .nav-button-NBA a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.nav-bar .nav-button-forside a {
+    right: 20%;
+    top: 33%;
+}
+
+.nav-bar .nav-button-forside a:hover {
+    border-bottom: 2px solid orange;
+}
+
+
+}
+h2 {
+    margin-top: 20px;
+}
+mark {
+    background-color: white;
+    padding: 0px 3px;
+}
+.wrapper {
+    padding: 100px;
+    margin: 0 0 50px 0;
+    text-align: left;
+    height: 40vh;
+    background-size: cover;
+    transition: all 0.4s ease;
+}
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    border: 2px solid white;
+    line-height: 1; // Normalize height
+    font: 600 12px 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: orange;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.button:hover {
+    color: orange;
+    background-color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+* {
+    /* I know I could write "margin: 0; padding: 0;". But that's not performant. */
+    
+    font-family: 'Open Sans';
+    line-height: 170%;
+    color: #444;
+}
+body,
+p,
+h1,
+h2 {
+    margin: 0;
+}
+h2 {
+    margin-top: 20px;
+}
+mark {
+    background-color: white;
+    padding: 0px 3px;
+}
+.wrapper1 {
+    padding: 100px;
+    margin: 0 0 50px 0;
+    text-align: left;
+    height: 40vh;
+    background-size: cover;
+   
+    background: url(/images/RedigeretStreetballLokationer/IMG_0376-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.wrapper2 {
+    padding: 100px;
+    margin: 0 0 50px 0;
+    text-align: left;
+    height: 40vh;
+   
+    background: url(/images/usa_today_9888923.1487562403.jpg) no-repeat;
+    background-size: cover;
+}
+.wrapper3 {
+    padding: 100px;
+    margin: 0 0 50px 0;
+    text-align: left;
+    height: 40vh;
+   
+    background: url(/images/boston%20vs%20philly.png) no-repeat;
+    background-size: cover;
+}
+.articleText1 {
+    margin: 0 10% 30px 20%;
+    width: 60%;
+    max-width: 800px;
+    padding-left: 30px;
+    border-left: 1px solid #cccccc;
+    transition: all 0.4s ease;
+}
+.introduction {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    /* For tablets: */
+    
+    .articleText {
+        margin: 0 10% 30px 10%;
+        width: 80%;
+        max-width: 800px;
+        padding-left: 0px;
+        border: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .articleText {
+        margin: 0 5% 30px 5%;
+        width: 90%;
+    }
+    
+    .wrapper {
+        padding: 5%;
+    }
+}
+#nr1 align {}
+#nr2 align {}
+* {
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    
+    margin-bottom: -142px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer,
+.page-wrap:after {
+    height: 9%;
+    
+}
+.site-footer {
+    background-color:whitesmoke;
+    color:dimgrey;
+    font-family: gothic;
+    text-align: center;
+}
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+}
+.arrows path {
+    stroke: white;
+    fill: transparent;
+    stroke-width: 3px;
+    animation: arrow 5s infinite;
+    -webkit-animation: arrow 3s infinite;
+}
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+    
+    40% {
+        opacity: 1
+    }
+    
+    80% {
+        opacity: 0
+    }
+    
+    100% {
+        opacity: 0
+    }
+}
+@-webkit-keyframes arrow/*Safari and Chrome*/
+{
+    0% {
+        opacity: 0
+    }
+    
+    40% {
+        opacity: 1
+    }
+    
+    80% {
+        opacity: 0
+    }
+    
+    100% {
+        opacity: 0
+    }
+}
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+    /* Safari 和 Chrome */
+}
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+    /* Safari 和 Chrome */
+}
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    /* Safari 和 Chrome */
+}
+
+
+.inputholder {
+   
+    text-align: center;
+    top: 99%;
+    right: 50%;
+    
+    margin-bottom: 10%;
+    
+    
+}
